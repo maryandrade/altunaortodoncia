@@ -1,0 +1,120 @@
+@media screen and (min-width: 660px) {
+	.menu {
+		display: flex;
+	}
+
+	.menu li {
+		flex: auto;
+	}
+
+	.menu a {
+		font-size: 0.9em;
+	}
+
+	#toggle-menu {
+		display: none;
+	}
+}
+/*
+	nav {
+		background: #39b0b6;
+		margin: 0 -500%;
+		padding: 0 500%;
+	}
+
+	#header a h1 {
+		margin-bottom: 15px;;
+	}
+
+	#header a h2 {
+		display: none;
+	}
+
+	.hide-link {
+		display: inline;
+		font-size: inherit;
+	}
+
+	nav li {
+		padding: 15px;
+	}
+
+	nav li a {
+		color: white;
+	}
+
+	#intro {
+		display: block;
+		margin: 0 auto;
+		width: 500px;
+		height: 400px;
+		background-image: url(/images/header.jpg);
+		background-size: cover;
+	}
+
+	#ortodoncia {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		text-align: justify;
+
+
+	}
+
+	#ortodoncia div {
+		width: 100%;
+		height: 100%;
+		clear: both;
+		overflow: auto;
+	}
+
+	#ortodoncia img {
+		display: inline-block;
+		position: relative;
+		padding: 40px;
+		margin-left: auto;
+		width: 150px;
+		height: 150px;
+		clear: both;
+	}
+
+	#ortodoncia .block1 p {
+		width: 50%;
+		display: inline-block;
+		position: relative;
+		margin: 0;
+		margin: auto;
+	}
+*/
+
+
+
+@media screen and (min-width: 960px) {
+	/******************************
+	HEADER
+	******************************/
+
+	/*
+nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+
+	}
+
+	.logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 40%;
+		clear: both;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+*/
+}

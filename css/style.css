@@ -1,0 +1,366 @@
+/****************************************
+	GENERAL
+****************************************/
+
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	color: #959595;
+	font-weight: 300;
+	padding: 0;
+	background: url(/images/bg.png) repeat;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+p {
+	margin: 20px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.icon {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	cursor: pointer;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+
+
+/****************************************
+	HEADING
+****************************************/
+
+header {
+	background: #fff;
+	width: 100%;
+
+}
+
+.logo {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #4b6888;
+	margin: 15px auto 5px;
+}
+
+.logo h1 {
+	font-size: 1.25em;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.logo h2 {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+
+
+
+/****************************************
+	NAVIGATION
+****************************************/
+.menu {
+	padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: none;
+}
+
+.menu li {
+  flex: auto;
+  border-bottom: 1px solid rgba(149, 149, 149, 0.5);
+  text-align: center;
+}
+
+.menu a {
+  color: #444f5d;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 3.5;
+  display:block;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu a:hover {
+  color: #fff;
+  background: #32b8da;
+}
+
+#toggle-menu {
+  background: #32b8da;
+  color: #fff;
+  line-height: 3.5;
+  padding-left: 1em;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+
+
+/****************************************
+	HERO IMAGE
+****************************************/
+
+#intro {
+	display: none;
+}
+
+
+
+/****************************************
+	BIO
+****************************************/
+#about {
+	width: 90%;
+	background-color: #fff;
+	margin:50px auto;
+	padding: 1.5em 1em 1.5em 0;
+	color: #959595;
+	font-size: 0.9em;
+	clear: both;
+	border: 1px solid rgba(149, 149, 149, 0.5);
+}
+
+#about h2 {
+	color: #0faae4;
+	font-weight: 400;
+	font-size: 1.5em;
+	letter-spacing: 0.01em;
+	text-align: center;
+	margin: 20px 0 0;
+}
+
+#about h3 {
+	font-weight: 400;
+	font-size: 1em;
+	text-align: center;
+	color: #444f5d;
+	margin: 10px 0 0;
+}
+
+#about .img-dra {
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+	width: 222px;
+	height: 222px;
+	border-radius: 50%;
+	-webkit-border-raius: 50%;
+	-moz-border-raius: 50%;
+	-o-border-radius: 50%;
+}
+
+.pdf {
+	display: none;
+}
+
+#about li {
+	margin-top: 5px;
+}
+
+
+
+/****************************************
+	ORTODONCIA
+****************************************/
+#ortodoncia {
+	border-bottom: 1px solid rgba(149, 149, 149, 0.5);
+	padding: 30px 500%;
+	margin: 0 -500%;
+	background-color: #fff;
+}
+
+#ortodoncia h2 {
+	font-weight: 400;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+	clear: both;
+}
+
+#ortodoncia .select {
+	color: #444f5d;
+}
+
+.acc-container {
+  width:90%;
+  margin:30px auto;
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  -o-border-radius:8px;
+  border-radius:8px;
+  overflow:hidden;
+}
+
+.acc-btn {
+  width:100%;
+  margin:0 auto;
+  padding:1em;
+  cursor:pointer;
+  background: #07a7e3;
+  border-bottom:1px solid #32b8da;
+}
+
+.acc-content {
+  height:0px;
+  width:100%;
+  margin:0 auto;
+  overflow:hidden;
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: 300;
+  background: #32b8da;
+}
+
+.acc-content-inner {
+  padding: 1em 1.1em;
+}
+
+.open {
+  height: auto;
+}
+
+
+
+/****************************************
+	INSTALACIONES
+****************************************/
+#instalaciones {
+	margin: 20px auto;
+	padding: 25px 0;
+}
+
+#instalaciones h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.5em;
+  color: #0faae4;
+	letter-spacing: 0.01em;
+	padding-bottom: 20px;
+}
+
+.owl-carousel {
+	margin: 20px auto;
+	max-width: 520px;
+}
+
+/* auto fit image to slider container */
+.owl-carousel img {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+
+
+/****************************************
+	CONTACTO
+****************************************/
+#contacto {
+	margin: 0 -500%;
+	padding: 2em 500% 3em;
+	background-color: #fff;
+	color: #959595;
+	clear: both;
+	text-align: center;
+	font-size: 0.9em;
+	border-top: 1px solid rgba(149, 149, 149, 0.5);
+}
+
+#contacto h2 {
+	font-weight: 400;
+	font-size: 1.5em;
+	letter-spacing: 0.01em;
+	color: #0faae4;
+	margin: 10px 0;
+	padding: 30px 0;
+}
+
+#contacto .primary {
+	margin-bottom: 20px;
+	color: #959595;
+}
+
+.contact-info {
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.contact-info li {
+	margin: 10px 0;
+}
+
+#contacto a {
+	color: #444f5d;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+}
+
+#map-canvas {
+	padding: 30px 20px;
+	margin: 0 auto;
+}
+
+
+
+/****************************************
+	FOOTER
+****************************************/
+footer {
+	padding: 1em 500%;
+	margin: 0 -500%;
+	text-align: center;
+	background-color: #444f5d;
+	color: #959595;
+	font: 0.7em 'Open sans', sans-serif;
+	font-weight: 300;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+footer li {
+	display: inline-block;
+	padding: 5px;
+}
+
+footer a {
+	text-decoration: none;
+	line-height: 1em;
+	color: #fff;
+}
+
+footer a:hover {
+	border-bottom: 1px dotted #fff;
+}
