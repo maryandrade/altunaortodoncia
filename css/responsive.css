@@ -1,6 +1,6 @@
 @media screen and (min-width: 660px) {
 	.menu {
-		display: flex;
+		display: flex !important;
 	}
 
 	.menu li {

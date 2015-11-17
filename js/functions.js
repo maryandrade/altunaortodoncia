@@ -1,10 +1,4 @@
-// Responsive menu
-
-
-
-
 // Accordion function
-
 $(document).ready(function(){
   var animTime = 300,
       clickPolice = false;
@@ -29,8 +23,9 @@ $(document).ready(function(){
 
 });
 
-// Go-up button function
 
+
+// Go-up button function
 $(document).ready(function(){
 
 	$('.go-up').click(function(){
