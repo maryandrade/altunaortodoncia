@@ -54,8 +54,8 @@ a {
 #header {
 	background: #fff;
 	width: 100%;
-  margin: 0 auto;
-  padding: 20px 0 10px;
+  height: 100px;
+  margin: 20px auto 0;
 }
 
 #header h1 {
@@ -67,21 +67,11 @@ a {
 }
 
 #header h2 {
-	font-size: 1em;
+	font-size: 0.9em;
 	font-weight: 400;
   text-align: center;
   margin: 20px 0;
   color: #444f5d;
-}
-
-@media screen and (min-width: 820px) {
-  #header h1 {
-    float: left;
-  }
-
-  #header h2 {
-    float: right;
-  }
 }
 
 
@@ -133,34 +123,6 @@ a {
   background: #32b8da;
 }
 
-@media screen and (min-width: 660px) {
-	.menu {
-		display: flex !important;
-	}
-
-	.menu li {
-		flex: auto;
-	}
-
-	.menu a {
-		font-size: 0.9em;
-	}
-
-	#toggle-menu {
-		display: none;
-	}
-}
-
-
-
-/****************************************
-	HERO IMAGE
-****************************************/
-
-#intro {
-	display: none;
-}
-
 
 
 /****************************************
@@ -191,27 +153,26 @@ a {
 	font-size: 1em;
 	text-align: center;
 	color: #444f5d;
-	margin: 10px 0 0;
+	margin: 0 auto 15px;
 }
 
 #about .img-dra {
 	display: block;
 	margin: 30px auto;
-	text-align: center;
-	width: 222px;
-	height: 222px;
+  width: 222px;
+  height: 222px;
 	border-radius: 50%;
 	-webkit-border-raius: 50%;
 	-moz-border-raius: 50%;
 	-o-border-radius: 50%;
 }
 
-.pdf {
-	display: none;
+#about p {
+  margin: 0 5%;
 }
 
-#about li {
-	margin-top: 5px;
+.pdf {
+	display: none;
 }
 
 
@@ -220,23 +181,25 @@ a {
 	ORTODONCIA
 ****************************************/
 #ortodoncia {
+  border-top: 1px solid rgba(149, 149, 149, 0.5);
 	border-bottom: 1px solid rgba(149, 149, 149, 0.5);
 	padding: 30px 500%;
 	margin: 0 -500%;
 	background-color: #fff;
+  clear: both;
 }
 
 #ortodoncia h2 {
 	font-weight: 400;
 	font-size: 1em;
-	color: #fff;
+	color: #7DB4B5;
 	text-align: center;
 	margin: 10px 0;
 	clear: both;
 }
 
 #ortodoncia .select {
-	color: #444f5d;
+	color: rgba(7, 167, 227, 0.7);
 }
 
 .acc-container {
@@ -254,8 +217,8 @@ a {
   margin:0 auto;
   padding:1em;
   cursor:pointer;
-  background: #07a7e3;
-  border-bottom:1px solid #32b8da;
+  background: #E0EFF1;
+  border-bottom:1px solid rgba(7, 167, 227, 0.6);
 }
 
 .acc-content {
@@ -266,7 +229,7 @@ a {
 	color: #fff;
 	font-size: 0.9em;
 	font-weight: 300;
-  background: #32b8da;
+  background: rgba(7, 167, 227, 0.6);
 }
 
 .acc-content-inner {
@@ -334,7 +297,7 @@ a {
 }
 
 #contacto .primary {
-	margin-bottom: 20px;
+	margin: 20px 0;
 	color: #959595;
 }
 
@@ -357,7 +320,7 @@ a {
 
 #map-canvas {
 	padding: 30px 20px;
-	margin: 0 auto;
+	margin: 0;
 }
 
 
@@ -366,13 +329,14 @@ a {
 	FOOTER
 ****************************************/
 footer {
-	padding: 1em 500%;
+	padding: 1.5em 500%;
 	margin: 0 -500%;
 	text-align: center;
 	background-color: #444f5d;
 	color: #959595;
 	font: 0.7em 'Open sans', sans-serif;
 	font-weight: 300;
+  clear: both;
 }
 
 footer ul {

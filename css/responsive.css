@@ -1,4 +1,23 @@
+/************************************************************
+	CLEARFIX
+************************************************************/
+.group::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+/************************************************************
+	MEDIA QUERY: 660px
+************************************************************/
 @media screen and (min-width: 660px) {
+
+	/****************************************
+		NAVIGATION
+	****************************************/
+
 	.menu {
 		display: flex !important;
 	}
@@ -15,106 +34,102 @@
 		display: none;
 	}
 }
-/*
-	nav {
-		background: #39b0b6;
-		margin: 0 -500%;
-		padding: 0 500%;
+
+
+
+/************************************************************
+	MEDIA QUERY: 820px
+************************************************************/
+@media screen and (min-width: 820px) {
+
+	/****************************************
+		HEADER
+	****************************************/
+	#header{
+		height: 80px;
 	}
 
-	#header a h1 {
-		margin-bottom: 15px;;
-	}
+	#header h1 {
+    float: left;
+		margin: 20px 0 0 40px;
+  }
 
-	#header a h2 {
-		display: none;
-	}
-
-	.hide-link {
-		display: inline;
-		font-size: inherit;
-	}
-
-	nav li {
-		padding: 15px;
-	}
-
-	nav li a {
-		color: white;
-	}
-
-	#intro {
-		display: block;
-		margin: 0 auto;
-		width: 500px;
-		height: 400px;
-		background-image: url(/images/header.jpg);
-		background-size: cover;
-	}
-
-	#ortodoncia {
-		display: block;
-		width: 90%;
-		margin: 0 auto;
-		text-align: justify;
+  #header h2 {
+    float: right;
+		margin: 30px 30px 0 0;
+  }
 
 
-	}
-
-	#ortodoncia div {
-		width: 100%;
-		height: 100%;
-		clear: both;
+	/****************************************
+		ABOUT
+	****************************************/
+	#about {
+		display: relative;
 		overflow: auto;
 	}
 
-	#ortodoncia img {
-		display: inline-block;
+	#about h2 {
+		margin-bottom: 20px;
+	}
+
+	#about h3 {
+		font-size: 1.25em;
+	}
+
+	.about-photo {
 		position: relative;
-		padding: 40px;
-		margin-left: auto;
-		width: 150px;
-		height: 150px;
-		clear: both;
-	}
-
-	#ortodoncia .block1 p {
-		width: 50%;
-		display: inline-block;
-		position: relative;
-		margin: 0;
-		margin: auto;
-	}
-*/
-
-
-
-@media screen and (min-width: 960px) {
-	/******************************
-	HEADER
-	******************************/
-
-	/*
-nav {
-		background: none;
-		float: right;
-		font-size: 1.125em;
-		margin-right: 5%;
-		text-align: right;
-		width: 45%;
-
-	}
-
-	.logo {
 		float: left;
-		margin-left: 5%;
-		text-align: left;
 		width: 40%;
 		clear: both;
 	}
 
-	h1 {
-		font-size: 2em;
+	.about-text {
+		float: right;
+		width: 45%;
+		margin-right: 5%;
+		margin-left: 2.5%;
 	}
-*/
+
+	.img-dra {
+		width: 222px;
+		height: 222px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+
+	/****************************************
+		ORTODONCIA
+	****************************************/
+	#ortodoncia .acc-container {
+		width: 65%;
+	}
+
+
+
+	/****************************************
+		CONTACTO
+	****************************************/
+	#contacto .primary,
+	.secondary {
+		position: relative;
+		margin: auto;
+	}
+
+	.primary {
+		width: 35%;
+		float: left;
+		padding-top: 75px;
+		padding-left: 40px;
+	}
+
+	.secondary {
+		width: 55%;
+		float: right;
+		margin-right: 5%;
+	}
+
 }
